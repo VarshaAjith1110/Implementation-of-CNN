@@ -26,7 +26,7 @@ Train the model
 ### Name:Varsha Ajith
 ### Register Number:212221230118
 
-
+```
 import os
 import base64
 import numpy as np
@@ -128,7 +128,7 @@ def convolutional_model():
 model = convolutional_model()
 training_history = model.fit(training_images, training_labels, epochs=10, callbacks=[EarlyStoppingCallback()])
 
-
+```
 ## OUTPUT
 
 ### Reshape and Normalize output
